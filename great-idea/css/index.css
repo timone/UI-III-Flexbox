@@ -64,3 +64,95 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+.containter {
+	width: 876px;
+	margin: auto;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+}
+
+header nav {
+	display: flex;
+	width: 600px;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: 50px;
+}
+
+header nav a {
+	/* tblr */
+	margin: 0 20px;
+	text-decoration-line: none;
+	color: grey;
+}
+
+.header-image {
+	margin: 30px;
+	display: flex;
+}
+
+.cta-text {
+	font-size: 50px;
+	margin: 100px;
+}
+.cta-text h1 {
+	text-align: center;
+}
+.cta {
+	border-bottom: 1px solid black;
+	display: flex;
+}
+
+.main-content {
+	width: 900px;
+	margin: auto;
+	padding-top: 20px;
+	border-bottom: 1px solid black;
+
+}
+
+.top-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.text-content {
+	width: 40%;
+	margin-bottom: 20px;
+	display: flex;
+}
+.bottom-content {
+	padding-top: 20px;
+}
+.bottom-content .text-content {
+	width: 32%;
+}
+
+.contact {
+	width: 900px;
+	margin: auto;
+	padding: 20px 0;
+}
+/* Footer  */
+.contact {
+	display: flex;
+	flex-direction: column;
+	padding: 25px 0px;
+}
+.contact address{
+	padding: 5px 0px;
+	width: 150px;
+}
+.contact a{
+	padding: 5px 0px;
+	text-decoration-inline: none;
+	color: black;
+}
+.contact p{
+	text-align: center;
+}
