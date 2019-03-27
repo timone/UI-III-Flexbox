@@ -25,9 +25,9 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+footer, header, hgroup, menu, nav, section 
+
+
 body {
 	line-height: 1;
 }
@@ -89,6 +89,7 @@ header nav a {
 	margin: 0 20px;
 	text-decoration-line: none;
 	color: grey;
+	display: flex;
 }
 
 .header-image {
@@ -99,9 +100,11 @@ header nav a {
 .cta-text {
 	font-size: 50px;
 	margin: 100px;
+	display: flex;
 }
 .cta-text h1 {
 	text-align: center;
+	flex-direction: column;
 }
 .cta {
 	border-bottom: 1px solid black;
@@ -117,7 +120,6 @@ header nav a {
 }
 
 .top-content {
-	display: flex;
 	flex-direction: row;
 	justify-content: center;
 }
